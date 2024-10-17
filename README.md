@@ -1,33 +1,38 @@
-Tip Calculator Mini Project
-Welcome to the Tip Calculator Mini Project! This simple yet powerful web application helps you effortlessly calculate tips based on your bill amount, desired tip percentage, and the number of people sharing the bill. Whether dining out with friends or enjoying a cozy meal, our tool ensures that everyone knows their share!
+# Tip Calculator Mini Project
 
-Features
-User-Friendly Interface: Enjoy a sleek and modern design with vibrant blue accents that enhance your experience.
-Dynamic Calculations: Instantly calculate the total amount per person, making splitting the bill a breeze.
-Responsive Design: Access the app seamlessly from any device—desktop or mobile!
-How to Use
-Visit the App: Check it out at Tip Calculator.
-Input Your Details: Enter the bill amount, select the tip percentage, and specify how many people will split the bill.
-Get Your Results: Click 'Calculate' to see how much each person owes, displayed with two decimal places for accuracy.
-Installation (for Local Use)
-Clone the Repository:
-bash
-Copy code
-git clone https://github.com/utkarshsri22/TipCalculator_MiniProject.git
-Navigate to the Project Directory:
-bash
-Copy code
+Welcome to the Tip Calculator Mini Project! This web application allows users to easily calculate tips based on their bill amount, desired tip percentage, and number of people sharing the bill.
+
+## Features
+- User-friendly interface for inputting bill details
+- Calculates total per person including tip
+- Responsive design
+
+## Technologies Used
+- Flask (Python)
+- HTML/CSS
+- Gunicorn for deployment
+
+## Live Demo
+You can access the live application [here](https://tipcalculator-miniproject.onrender.com).
+
+## Installation
+To run this project locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/utkarshsri22/TipCalculator_MiniProject.git
+
+## Navigate to the project directory
 cd TipCalculator_MiniProject
-Install Dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application:
-bash
-Copy code
-flask run
-Contributing
-We welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
 
-License
+## Install dependencies
+pip install -r requirements.txt
+
+## Run the application
+flask run
+
+## Contribution
+Feel free to contribute by submitting a pull request or raising issues.
+
+## License
 This project is open-source and available under the MIT License.
+
